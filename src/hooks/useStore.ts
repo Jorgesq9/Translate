@@ -91,10 +91,14 @@ export function useStore() {
 
   return {
     fromLanguage,
+    setFromLanguage,
     toLanguage,
+    setToLanguage,
     interchangeLanguages,
     fromText,
+    setFromText,
     result,
+    setResult,
     loading,
   };
 }
